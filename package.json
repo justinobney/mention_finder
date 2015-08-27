@@ -1,0 +1,16 @@
+{
+  "name": "testem_scratch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "browserify": "^11.0.1",
+    "babelify": "^6.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "testem"
+  },
+  "author": "Justin Obney",
+  "license": "ISC"
+}

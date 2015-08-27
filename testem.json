@@ -1,0 +1,12 @@
+{
+  "growl": true,
+  "launch_in_dev": ["PhantomJS"],
+  "launch_in_ci": ["PhantomJS"],
+  "framework": "jasmine2",
+  "serve_files": [ "script-compiled.js" ],
+  "before_tests": "browserify ./src/run.js -t babelify --outfile script-compiled.js",
+  "on_exit": "rm script-compiled.js",
+  "src_files": [
+    "src/*.js"
+  ]
+}
