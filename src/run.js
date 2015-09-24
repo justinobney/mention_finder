@@ -1,3 +1,3 @@
-import spec from './compose_spec.js';
+import spec from './lib_spec.js';
 
 spec();
