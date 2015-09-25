@@ -2,7 +2,7 @@
   "name": "testem_scratch",
   "version": "1.0.0",
   "description": "",
-  "main": "run.js",
+  "main": "src/lib.js",
   "dependencies": {
     "babelify": "^6.2.0",
     "browserify": "^11.0.1"
